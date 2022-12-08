@@ -1,113 +1,122 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang='ru'>
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
-<title>Coming Soon</title>
-<style type="text/css">
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no'>
+    <link href="data:image/x-icon;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQEAYAAABPYyMiAAAABmJLR0T///////8JWPfcAAAACXBIWXMAAABIAAAASABGyWs+AAAAF0lEQVRIx2NgGAWjYBSMglEwCkbBSAcACBAAAeaR9cIAAAAASUVORK5CYII=" rel="icon" type="image/x-icon">
+    <title>Добро пожаловать!</title>
+    <style>
+    a {
+        background-color: transparent;
+        -webkit-text-decoration-skip: objects
+    }
+
+    a:active,
+    a:hover {
+        outline-width: 0
+    }
+
+    *,
+    *:after,
+    *:before {
+        box-sizing: inherit;
+        margin: 0;
+        padding: 0;
+        color: #000;
+    }
+
+    html {
+        box-sizing: border-box;
+        font-size: 1px !important;
+    }
+
     body {
-        background-color: #f5f5f5;
-        margin-top: 8%;
-        color: #5d5d5d;
-        font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
-        text-shadow: 0px 1px 1px rgba(255,255,255,0.75);
-        text-align: center !important;
+        font: normal 14rem/21rem Arial, 'Helvetica CY', 'Nimbus Sans L', sans-serif;
+        background-color: #E5EEF5;
+    }
+
+    .outer {
+        display: table;
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+    }
+
+    .middle {
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+    .inner {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 570rem;
+        min-width: 360rem;
+        padding: 20rem;
     }
 
     h1 {
-        font-size: 2.45em;
-        font-weight: 700;
-        color: #5d5d5d;
-        letter-spacing: -0.02em;
-        margin-bottom: 30px;
-        margin-top: 30px;
+        line-height: 48rem;
+        font-size: 48rem;
     }
 
-    .container {
-        width: 100%;
-        margin-right: auto;
-        margin-left: auto;
+    h2 {
+        margin-top: 15rem;
+        line-height: 26rem;
+        font-size: 26rem;
+        margin-bottom: 45rem;
     }
 
-    .animated {
-        -webkit-animation-duration: 1s;
-        animation-duration: 1s;
-        -webkit-animation-fill-mode: both;
-        animation-fill-mode: both;
+    .button {
+        position: relative;
+        display: inline-block;
+        text-decoration: none;
+        background-color: #F93545;
+        color: #fff;
+        padding: 8rem 16rem;
+        border-radius: 5rem;
+        overflow: hidden;
+        font-size: 16rem;
+        font-weight: bold;
+        text-shadow: 0px 0px 2px #aa0014;
     }
 
-    .fadeIn {
-        -webkit-animation-name: fadeIn;
-        animation-name: fadeIn;
-    }
-    
-    .info {
-        color:#5594cf;
-        fill:#5594cf;
+    i {
+        border: solid #fff;
+        border-width: 0 3rem 3rem 0;
+        display: inline-block;
+        padding: 3rem;
     }
 
-    .error {
-        color:#c92127;
-        fill:#c92127;
+    .right {
+        transform: rotate(-45deg);
+        -webkit-transform: rotate(-45deg);
     }
-
-    .warning {
-        color:#ffcc33;
-        fill:#ffcc33;
-    }
-
-    .success {
-        color:#5aba47;
-        fill:#5aba47;
-    }
-
-    .icon-large {
-        height: 132px;
-        width: 132px;
-    }
-
-    .description-text {
-        color: #707070;
-        letter-spacing: -0.01em;
-        font-size: 1.25em;
-        line-height: 20px;
-    }
-
-    .footer {
-        margin-top: 40px;
-        font-size: 0.7em;
-    }
-
-    .delay-1s {
-        -webkit-animation-delay: 1s;
-        animation-delay: 1s;
-    }
-
-    @keyframes fadeIn {
-        from { opacity: 0; }
-        to   { opacity: 1; }
-    }
-
-</style>
+    </style>
 </head>
+
 <body>
-<div class="container text-center">
-    <div class="row">
-        <div class="col">
-            <div class="animated fadeIn">
-                <svg class="warning icon-large fa-hard-hat" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                    <path d="M480 288c0-80.25-49.28-148.92-119.19-177.62L320 192V80a16 16 0 0 0-16-16h-96a16 16 0 0 0-16 16v112l-40.81-81.62C81.28 139.08 32 207.75 32 288v64h448zm16 96H16a16 16 0 0 0-16 16v32a16 16 0 0 0 16 16h480a16 16 0 0 0 16-16v-32a16 16 0 0 0-16-16z"></path>
-                </svg>
-            </div>
-            <h1 class="animated fadeIn">We're working on it!</h1>
-            <div class="description-text animated fadeIn delay-1s">
-                <p>This site is currently under construction.</p>
-                <p>Please check back soon.</p>
-                <section class="footer"><strong>Domain:</strong> k-belov.xn--80ahdri7a.site</section>
+    <div class='outer'>
+        <div class='middle'>
+            <div class='inner'>
+                <h1 id='t1'>Добро пожаловать!</h1>
+                <h2 id='t2'>Open Server Panel работает ;-)</h2><a href='https://ospanel.io/docs/' class='button' id='t3'>Руководство пользователя <i class="right"></i></a>
             </div>
         </div>
     </div>
-</div>
+    <script>
+    var userLang = navigator.language || navigator.userLanguage;
+    var userLang_detected = userLang.toLowerCase();
+    if (userLang_detected != 'ru-ru' && userLang_detected != 'ru') {
+        document.title = 'Welcome!';
+        document.getElementById('t1').innerHTML = 'Welcome!';
+        document.getElementById('t2').innerHTML = 'Open Server Panel is running ;-)';
+        document.getElementById('t3').innerHTML = 'User\'s manual <i class="right"></i>';
+    }
+    </script>
 </body>
+
 </html>
